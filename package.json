@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@nrwl/js": "latest",
+    "@nrwl/node": "latest",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/workspace": "latest",
+    "@types/node": "latest",
+    "nx": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "preupdate": "npx only-allow pnpm"
+  }
+}

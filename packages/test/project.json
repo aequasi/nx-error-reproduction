@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/test/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/test",
+        "main": "packages/test/src/main.ts",
+        "tsConfig": "packages/test/tsconfig.app.json",
+        "rootDir": "packages/test/src",
+        "generateLockfile": true
+      }
+    }
+  },
+  "tags": []
+}

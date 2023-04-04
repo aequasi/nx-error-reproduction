@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "description": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.303.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.3"
+  },
+  "private": true
+}
