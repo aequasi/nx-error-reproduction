@@ -3,8 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
     "@nrwl/js": "latest",
     "@nrwl/node": "latest",
@@ -12,6 +10,7 @@
     "@nrwl/workspace": "latest",
     "@types/node": "latest",
     "nx": "latest",
+    "tslib": "latest",
     "typescript": "latest"
   },
   "scripts": {
